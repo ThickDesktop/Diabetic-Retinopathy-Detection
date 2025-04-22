@@ -6,8 +6,7 @@ This project focuses on detecting and classifying **Diabetic Retinopathy (DR)** 
 
 ## 📁 Project Structure
 
-![image](https://github.com/user-attachments/assets/24087d30-b8da-4155-87cc-5d0edd0738e8)
-
+![image](https://github.com/user-attachments/assets/3200e2d7-ebcb-4cdf-ac29-587e88292505)
 
 ---
 
@@ -15,12 +14,12 @@ This project focuses on detecting and classifying **Diabetic Retinopathy (DR)** 
 
 - Segment key retinal features using **U-Net** models.
 - Classify the severity of Diabetic Retinopathy using **MobileNetV2**.
-- Generate metrics like **IoU**, **F1 Score**, **Precision**, **Recall**, and **Accuracy** for each segmented class.
-- Provide a simple **Flask-based web interface** for classification.
+- Generate metrics like **IoU**, **F1 Score**, **Precision**, **Recall**, and **Accuracy**.
+- Provide a simple **Flask** web interface.
 
 ---
 
-## 📊 Sample Output - Segmentation Metrics Table
+## 📊 Sample Output - Segmentation Metrics
 
 | Segmentation Task | IoU (Jaccard) | F1 Score | Recall | Precision | Accuracy |
 |-------------------|---------------|----------|--------|-----------|----------|
@@ -31,33 +30,33 @@ This project focuses on detecting and classifying **Diabetic Retinopathy (DR)** 
 | Microaneurysm     | 0.6548        | 0.7813   | 0.7668 | 0.8227    | 0.7476   |
 | Optical Disc      | 0.6640        | 0.7885   | 0.7705 | 0.8350    | 0.7735   |
 
-> ⚠️ These values are generated for demonstration and may slightly vary each run.
-
 ---
 
 ## 🧪 Technologies Used
 
-- **TensorFlow / Keras**
-- **OpenCV**
-- **MobileNetV2**
-- **U-Net for segmentation**
-- **Scikit-learn** for metrics
-- **Flask** for web interface
+- TensorFlow / Keras
+- MobileNetV2
+- U-Net
+- OpenCV
+- Scikit-learn
+- Flask
 
 ---
 
-## 🚀 Running the Project
+## 🚀 How to Run
 
-### 1. Create Virtual Environment
-```bash
-python3 -m venv venv
-source venv/bin/activate
+1. Create a virtual environment:
 
-2. Install Dependencies
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+
+	2.	Install dependencies:
 
 pip install -r requirements.txt
 
-3. Start Flask App
+
+	3.	Launch the Flask app:
 
 cd Classification
 python app.py
@@ -68,15 +67,17 @@ python app.py
 
 ⚠️ Note
 
-🧩 Due to file size limitations, I could not upload the trained model files (.h5) to GitHub.
-You may download them externally or train your own using the training script.
+📂 Due to GitHub file size limitations, the trained models could not be uploaded here.
+
+🔗 You can download the complete project and trained models from:
+Google Drive Project Folder
 
 ⸻
 
 📬 Contact
 
-For any queries or collaboration, feel free to reach out!
+For questions or suggestions, feel free to reach out!
 
 ⸻
 
-⭐️ If you like this project, consider giving it a star!
+⭐ If you find this helpful, consider starring the project on GitHub!
